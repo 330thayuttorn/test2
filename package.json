@@ -1,0 +1,14 @@
+{
+  "name": "playwright-integration-demo",
+  "version": "1.0.0",
+  "description": "Integration testing with Playwright: Top-Down, Bottom-Up, Sandwich (SauceDemo) + card.html stub/driver",
+  "scripts": {
+    "test": "playwright test",
+    "test:card": "playwright test tests/07-card-stub-driver.spec.ts --headed",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.64.1",
+    "@types/node": "^20.19.43"
+  }
+}
